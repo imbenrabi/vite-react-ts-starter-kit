@@ -469,7 +469,7 @@
 
 "@typescript-eslint/eslint-plugin@^6.0.0":
   version "6.0.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.0.0.tgz"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.0.0.tgz#19ff4f1cab8d6f8c2c1825150f7a840bc5d9bdc4"
   integrity sha1-Gf9PHKuNb4wsGCUVD3qEC8XZvcQ=
   dependencies:
     "@eslint-community/regexpp" "^4.5.0"
@@ -485,6 +485,17 @@
     natural-compare-lite "^1.4.0"
     semver "^7.5.0"
     ts-api-utils "^1.0.1"
+
+"@typescript-eslint/parser@^6.0.0":
+  version "6.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@typescript-eslint/parser/-/parser-6.0.0.tgz#46b2600fd1f67e62fc00a28093a75f41bf7effc4"
+  integrity sha1-RrJgD9H2fmL8AKKAk6dfQb9+/8Q=
+  dependencies:
+    "@typescript-eslint/scope-manager" "6.0.0"
+    "@typescript-eslint/types" "6.0.0"
+    "@typescript-eslint/typescript-estree" "6.0.0"
+    "@typescript-eslint/visitor-keys" "6.0.0"
+    debug "^4.3.4"
 
 "@typescript-eslint/scope-manager@6.0.0":
   version "6.0.0"
@@ -986,7 +997,7 @@ eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.1:
 
 eslint@^8.45.0:
   version "8.45.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint/-/eslint-8.45.0.tgz"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint/-/eslint-8.45.0.tgz#bab660f90d18e1364352c0a6b7c6db8edb458b78"
   integrity sha1-urZg+Q0Y4TZDUsCmt8bbjttFi3g=
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
